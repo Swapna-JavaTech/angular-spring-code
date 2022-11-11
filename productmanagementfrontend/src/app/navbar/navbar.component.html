@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Static Navbar</title>
+</head>
+<body>
+<div class="m-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a routerLink="" routerLinkActive="active" class="nav-item nav-link">Welcome To ShoppingMall</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a routerLink="productlist" routerLinkActive="active" class="nav-item nav-link active">ProductList</a>
+                    <a routerLink="addproduct" routerLinkActive="active" class="nav-item nav-link">Add Product</a>
+                    <a routerLink="contactus" routerLinkActive="active" class="nav-item nav-link">contactus</a>
+                    <a routerLink="feedback" routerLinkActive="active" class="nav-item nav-link">feedback</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a routerLink="login" routerLinkActive="active" class="nav-item nav-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+</body>
+</html>
+
